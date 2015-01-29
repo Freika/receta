@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bower-rails'
+gem 'angular-rails-templates'
 
 group :development, :test do
   gem 'byebug'
@@ -24,6 +25,7 @@ group :development, :test do
 end
 
 gem "foreman"
+
 group :production, :staging do
   gem "rails_12factor"
   gem "rails_stdout_logging"
