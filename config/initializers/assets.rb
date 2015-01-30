@@ -4,6 +4,12 @@
 Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( bootstrap/glyphicons-halflings-regular.woff2 )
+Rails.application.config.assets.precompile += %w(
+  teaspoon.css
+  teaspoon-teaspoon.js
+  teaspoon-jasmine.js
+)
+Rails.application.config.assets.precompile += %w( jasmine/1.3.1.js )
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 
